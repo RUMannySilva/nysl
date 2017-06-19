@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/erols/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -46,48 +46,89 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+/*Header*/
+#main-header {
+	height:125px;	
+	display:block;
+}
 .logo {
 	width:100px;
 	height:100px;	
 	float:left;
-	margin: 10px;
+	margin:10px;
 	display:block;
 }
-
 h1 {
 	font-size:50px;
-}
-div.nav {
-	display:block;
-	float:left;
-	margin: 10px;
-}
-h2 {
-	font-size:25px;
-	float:middle;		
-	display:inline-block;
+	padding:40px;
 
+/*Nav*/
 }
-h3 {
-	font-size:20px;
+#main-navigation {
+	display:block;
+	padding:10px;
+	margin-left: 115px;
+	
 }
-.content {
+
+/*sidebar*/
+#sidebar {
 	float:left;
-	margin:10px;
-	padding:20px;
-	display:inline-block;
-	position:absolute;
-	left:100px;
-}
-body {
-	line-height: 1.5;
-}
-.pic {
-	float:left;
-	height:100px;
 	width:100px;
-	position:absolute;
-	left:10px;
-	top:135px;
-	}
+	height:100px;
+	padding:20px;
+}
+#sidebar img {
+	border: 1px solid black;
+	height:100px;
+	width: 100px;
+}
+
+/*main*/
+main {
+	display:block;
+	margin-left:150px;
+}
+/*content*/
+ 
+#events {
+	line-height:2;
+	font-family:helvetica;
+}
+.content h2 {
+	font-size:25px;	
+	font-weight:bold;
+}
+.content h3 {
+	font-size:20px;
+	text-indent:25px;
+}
+#events {
+	padding: 10px 25px 10px 25px;
+}
+/*about page info section */
+
+.info {
+	text-align: left;
+}
+
+.info h2 {
+	padding-top: 10px;
+}
+.info p {
+	width:90%;
+	padding: 0px 50px 25px 0px; 
+	text-align:justify;
+	text-indent:0px;
+	margin-left: 25px;
+}
+
+/*contacts page*/
+
+#contact-info { 
+	padding:20px 0px 0px 0px;
+ }
+ #contact-info p {
+ 	line-height: 2;
+ 	text-indent: 20px;
+ }
